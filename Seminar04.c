@@ -135,6 +135,7 @@ float calculeazaPretulMasinilorUnuiSofer(/*lista masini*/ const char* numeSofer)
 	return 0;
 }
 
+
 int main() {
 	nod* cap = citireListaMasiniDinFisier("masini.txt");
 	afisareListaMasini(cap);
